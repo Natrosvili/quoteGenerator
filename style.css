@@ -1,0 +1,75 @@
+body {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+    background-color:burlywood;
+}
+
+#container {
+    justify-content: center;
+    display: flex;
+}
+
+.header {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: darkgrey;
+    color: white;
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 4px;
+    position:relative;
+    top: 80px;
+}
+
+#mainBox {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 150px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 0px 70px 0px black;
+}
+
+.ranQuoteGoesHere {
+    padding: 10px;
+    margin: 20px;
+    height: 200px;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.fullName {
+    position: relative;
+    top: 20px;
+    font-family: monospace;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: red;
+}
+
+
+#newQuote {
+    position: relative; 
+    top: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: darkgray;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
