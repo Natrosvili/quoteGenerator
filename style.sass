@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Montserrat:wght@300&family=Satisfy&display=swap')
+
+$blackColor: #000000
+$whiteColor: #ffffff
+$greyColor: #808080
+$darkGreyColor: #63666A
+
+@mixin place($w, $h)
+    width: $w
+    height: $h
+
+
+body 
+    @include place(100vw, 100vh)
+    box-sizing: border-box
+    margin: 0
+    background-image: url("./assents/photo.jpg")
+    background-repeat: no-repeat
+    background-attachment: fixed
+    background-size: cover
+    display: grid
+    place-content: center
+
+
+.par 
+    display: flex
+    justify-content: center
+
+.header
+    font-family: 'Bad Script', cursive
+    background-color: $greyColor
+    color: $whiteColor
+    border: 2px solid $darkGreyColor
+    padding: 0.5rem
+    border-radius: 4px
+    opacity: 0.8
+    width: 28%
+
+#mainBox 
+    @include place(37.5rem, 20rem)
+    background-color: $greyColor
+    opacity: 0.8
+    color: $blackColor
+    text-align: center
+    border: 2px solid $darkGreyColor
+    border-radius: 10px
+    box-shadow: 5px 0px 70px 0px $blackColor
+
+
+.ranQuoteGoesHere 
+    font-family: 'Handlee', cursive
+    padding: 0.625rem
+    margin: 1.25rem
+    height: 12.5rem
+    color: $whiteColor
+    font-size: 1.875rem
+
+
+.fullName 
+    font-family: 'Julee', cursive
+    font-size: 1.875rem
+    text-transform: uppercase
+    color: red
+
+
+#newQuote 
+    font-family: 'Montserrat', sans-serif
+    border: 2px solid $darkGreyColor
+    border-radius: 4px
+    background-color: $greyColor
+    color: $whiteColor
+    padding: 0.625rem
+    cursor: pointer
+
+
+
+
+
+
