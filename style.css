@@ -1,75 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Montserrat:wght@300&family=Satisfy&display=swap");
 body {
-    width: 100%;
-    height: 100vh;
-    box-sizing: border-box;
-    align-items: center;
-    margin: 0;
-    overflow: hidden;
-    background-color:burlywood;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  background-image: url("./assents/photo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: grid;
+  place-content: center;
 }
 
-#container {
-    justify-content: center;
-    display: flex;
+.par {
+  display: flex;
+  justify-content: center;
 }
 
 .header {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: darkgrey;
-    color: white;
-    border: 2px solid white;
-    padding: 8px;
-    border-radius: 4px;
-    position:relative;
-    top: 80px;
+  font-family: "Bad Script", cursive;
+  background-color: #808080;
+  color: #ffffff;
+  border: 2px solid #63666A;
+  padding: 0.5rem;
+  border-radius: 4px;
+  opacity: 0.8;
+  width: 28%;
 }
 
 #mainBox {
-    width: 600px;
-    height: 400px;
-    position: absolute;
-    top: 150px;
-    background-color: white;
-    color: black;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: 5px 0px 70px 0px black;
+  width: 37.5rem;
+  height: 20rem;
+  background-color: #808080;
+  opacity: 0.8;
+  color: #000000;
+  text-align: center;
+  border: 2px solid #63666A;
+  border-radius: 10px;
+  box-shadow: 5px 0px 70px 0px #000000;
 }
 
 .ranQuoteGoesHere {
-    padding: 10px;
-    margin: 20px;
-    height: 200px;
-    color: white;
-    font-size: 30px;
-    font-family: sans-serif;
+  font-family: "Handlee", cursive;
+  padding: 0.625rem;
+  margin: 1.25rem;
+  height: 12.5rem;
+  color: #ffffff;
+  font-size: 1.875rem;
 }
 
 .fullName {
-    position: relative;
-    top: 20px;
-    font-family: monospace;
-    font-size: 30px;
-    text-transform: uppercase;
-    color: red;
+  font-family: "Julee", cursive;
+  font-size: 1.875rem;
+  text-transform: uppercase;
+  color: red;
 }
-
 
 #newQuote {
-    position: relative; 
-    top: 50px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 2px solid white;
-    border-radius: 4px;
-    background-color: darkgray;
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-}
-
-
-
-
-
-
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid #63666A;
+  border-radius: 4px;
+  background-color: #808080;
+  color: #ffffff;
+  padding: 0.625rem;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

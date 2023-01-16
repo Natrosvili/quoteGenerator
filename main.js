@@ -1,6 +1,8 @@
 const quoteDisplay = document.querySelector(".ranQuoteGoesHere");
 const fullNameDisplay = document.querySelector(".fullName");
 const buttonDisplay = document.querySelector("#newQuote");
+const parQuoteDisplay = document.createElement("p");
+const parNameDisplay = document.createElement("p");
 
 const quotes = [{
     quote: `"In a gentle way, you can shake the world."`,
@@ -74,6 +76,13 @@ buttonDisplay.addEventListener("click", () => {
 
     let random = Math.floor(Math.random() * quotes.length);
 
-    quoteDisplay.innerText = quotes[random].quote;
-    fullNameDisplay.innerText = quotes[random].name;
+    quoteDisplay.style.margin = 0
+    parQuoteDisplay.style.margin = 0;
+    quoteDisplay.textContent = quotes[random].quote;
+    quoteDisplay.appendChild(parQuoteDisplay)
+
+    parNameDisplay.style.fontWeight = 550;
+    parNameDisplay.style.margin = 0;
+    parNameDisplay.textContent = quotes[random].name;
+    fullNameDisplay.appendChild(parNameDisplay)
 })
